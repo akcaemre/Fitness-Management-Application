@@ -1,0 +1,173 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<useCaseModelRoot xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" xmlns:dm9="http://schemas.microsoft.com/dsltools/LogicalClassDesigner" xmlns:dm10="http://schemas.microsoft.com/dsltools/SimpleShapesModel" dslVersion="1.0.0.0" Id="f4695cd1-c2f3-4bbe-ab70-9227af7dbdd8" name="UseCase" linkedPackageId="162a494c-0e2b-4d9c-890f-5cddfbcf96f0" xmlns="http://schemas.microsoft.com/dsltools/UseCaseModel">
+  <appliedStereotypesInternal>
+    <stereotypeInstance Id="96b24f6e-aff1-4ffb-8769-50cbebd352a4" name="namespace" profile="CSharpProfile">
+      <elementDefinition Id="e232f165-13e6-41c5-937a-82d0c745f7d4" />
+      <propertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="1c45cdeb-2ef3-414b-8cc5-fc74cf6242d0">
+          <propertyInstance Id="d24fd2d7-7d04-4590-b92b-a099653d1212" name="BaseName">
+            <elementDefinition Id="4b215204-5229-459d-87d7-7ebd1a7e861a" />
+          </propertyInstance>
+          <elementDefinition Id="651397f9-901b-4ac8-8903-49323bdbfb2c" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="56f1c2d5-e632-4451-956c-c6bb16844fd8">
+          <propertyInstance Id="b03945d0-e3f9-4df4-8896-c1ec83efedf5" name="ClrAttributes">
+            <elementDefinition Id="3b74754c-b2b4-40d5-b770-019bfba25458" />
+          </propertyInstance>
+          <elementDefinition Id="49d71331-1c14-4d3f-b437-94231830fc65" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="0f820b25-1671-47e3-871d-b38cacfb161f">
+          <propertyInstance Id="122a2003-33bf-43ff-9f0f-fd0a619cc8fb" name="Usings">
+            <elementDefinition Id="63ba39e8-394a-441b-9837-d0fe8f9b7d12" />
+          </propertyInstance>
+          <elementDefinition Id="1ea29603-f3b6-4919-b67a-352d16e26a47" />
+        </stereotypeInstanceHasPropertyInstances>
+      </propertyInstances>
+    </stereotypeInstance>
+    <stereotypeInstance Id="1bf41dae-7386-475a-ba3c-8a0b499d67ce" name="TextTemplateBindings" profile="TextTemplateBindings">
+      <elementDefinition Id="ba8a1dc3-f8cd-4832-bee8-1672acdfbf2f" />
+      <propertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="4da84601-f6c3-4a33-acec-df4550c1d043">
+          <propertyInstance Id="ae2f0be3-01a4-4574-8a13-4300a59e3be2" name="Alias" value="ClassTemplate|EnumTemplate|InterfaceTemplate|StructTemplate">
+            <elementDefinition Id="7e97c8c6-bca3-43c6-aeb2-9e9df383d506" />
+          </propertyInstance>
+          <elementDefinition Id="a942941c-d123-4d48-9d0e-15ef6ce87233" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="fd8ef1ec-a361-4c2c-b4a3-7bf71ab5431b">
+          <propertyInstance Id="2c8eaa7c-a8ef-4b47-bf61-aa78356ee61a" name="TemplateFilePath" value="ClassTemplate=C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 14.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\ClassTemplate.t4|EnumTemplate=C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 14.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\EnumTemplate.t4|InterfaceTemplate=C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 14.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\InterfaceTemplate.t4|StructTemplate=C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 14.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\StructTemplate.t4">
+            <elementDefinition Id="5457a730-8006-4252-bec3-2ab43c96cc08" />
+          </propertyInstance>
+          <elementDefinition Id="0b747265-f825-4297-8229-a498de4ed2c2" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="19f840b0-6f20-451e-a55d-f6056586c8e1">
+          <propertyInstance Id="55fc7e92-fad5-41c8-86eb-6c0eef0a6db2" name="ProjectPath" value="ClassTemplate=..\ModelingProject_WMSLib\ModelingProject_WMSLib.csproj|EnumTemplate=..\ModelingProject_WMSLib\ModelingProject_WMSLib.csproj|InterfaceTemplate=..\ModelingProject_WMSLib\ModelingProject_WMSLib.csproj|StructTemplate=..\ModelingProject_WMSLib\ModelingProject_WMSLib.csproj">
+            <elementDefinition Id="1ba151c2-ac45-4f3d-987d-11354d559236" />
+          </propertyInstance>
+          <elementDefinition Id="6a977ce3-78d5-4584-ab6b-8a9899f2f9ad" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="6ef93b65-862f-4283-aacb-09ef31f36dc3">
+          <propertyInstance Id="28e79c5e-e431-470e-9681-359145558754" name="TargetDirectory" value="ClassTemplate=GeneratedCode\{PackageStructure}|EnumTemplate=GeneratedCode\{PackageStructure}|InterfaceTemplate=GeneratedCode\{PackageStructure}|StructTemplate=GeneratedCode\{PackageStructure}">
+            <elementDefinition Id="8756b5c4-46e5-443c-9a33-bf07e383cf30" />
+          </propertyInstance>
+          <elementDefinition Id="5add70b7-998a-442b-a1c8-63aec7a31d14" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="e967cdc4-e9dd-45c4-af56-f95e039cd2c4">
+          <propertyInstance Id="b7014486-3186-45e9-b670-4eaef2f0ff6d" name="TargetName" value="ClassTemplate={Name}|EnumTemplate={Name}|InterfaceTemplate={Name}|StructTemplate={Name}">
+            <elementDefinition Id="9a5c85cf-dc4b-4861-8c22-f817b74e27dc" />
+          </propertyInstance>
+          <elementDefinition Id="a84e2228-07b4-420e-99fb-8ccb6e76bcbd" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="73b9bd76-7dc8-42be-a23b-d5c5de6e6931">
+          <propertyInstance Id="75e6d682-c45c-49be-ae63-69cf85e7be01" name="Overwrite" value="ClassTemplate=True|EnumTemplate=True|InterfaceTemplate=True|StructTemplate=True">
+            <elementDefinition Id="85ae8f65-8f5c-440c-9577-aa30093b775a" />
+          </propertyInstance>
+          <elementDefinition Id="1191d83f-7792-406b-b88a-86274b9659ab" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="d537d73c-29fe-4696-8286-f284a8b9e98d">
+          <propertyInstance Id="6ea8e580-0f3c-4e3e-8d80-06545408f6a0" name="Parameters">
+            <elementDefinition Id="29a86233-7be5-421e-842a-ee879a4d7375" />
+          </propertyInstance>
+          <elementDefinition Id="b4d4d636-ac97-4ac9-ae91-79db54d2cbb7" />
+        </stereotypeInstanceHasPropertyInstances>
+      </propertyInstances>
+    </stereotypeInstance>
+  </appliedStereotypesInternal>
+  <profileInstances>
+    <packageHasProfileInstances Id="74965c81-6b24-4a8c-81b7-eec434e84f76">
+      <profileInstance Id="4088be42-d8bc-42a1-8622-74980cec4bf6" name="StandardProfileL2">
+        <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+      </profileInstance>
+      <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances Id="d111b0d8-ddd5-46e0-b955-abcdc0e4d4d8">
+      <profileInstance Id="bc4ee6a3-b6c2-4f56-b7d0-a8b23bd6c8b1" name="StandardProfileL3">
+        <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+      </profileInstance>
+      <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances Id="1a5b605b-660f-41b4-b788-930e1644fbd3">
+      <profileInstance Id="d771cfec-d7a9-40d0-bad4-017fd72b418c" name="CSharpProfile">
+        <elementDefinition Id="1031eec4-d760-4252-b26a-1026ebab7204" />
+      </profileInstance>
+      <elementDefinition Id="f2f2b496-7a8e-4a05-a9a0-7fcb4e601ea0" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances Id="55fc42f6-413a-4c30-9efa-41d89816b133">
+      <profileInstance Id="6c5df58c-e4af-4988-94c5-2a0682e2d107" name="TextTemplateBindings">
+        <elementDefinition Id="26705a91-fff7-422f-85cd-42368a7a0f78" />
+      </profileInstance>
+      <elementDefinition Id="b9931a36-441c-4908-905b-a9017a541882" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <useCaseModelRootHasTypes>
+      <actor Id="3bd074d5-05e8-4d85-86be-43ccc33bc962" name="Nutzer" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="ada70cea-d918-4758-982c-13440d1acabb" />
+        <suppliersInternal>
+          <dependency Id="beaefca9-8a61-4b82-b4b1-086a20047d7b">
+            <useCaseMoniker Id="ed3fcea5-887f-4330-8b1a-e027d979f908" LastKnownName="Web Applikation&#xD;&#xA;- Zeigt Daten an" />
+            <elementDefinition Id="59d1796d-5328-459b-a008-03d53c81622e" />
+          </dependency>
+          <dependency Id="97be51be-3591-44c3-8c8f-866e366ceb03" name="interagiert mit">
+            <useCaseMoniker Id="8d81fe7b-ddd1-4227-a940-106ed9f41511" LastKnownName="Android App&#xD;&#xA;- Zeigt Daten an" />
+            <elementDefinition Id="cb7d2657-54ad-441d-9614-96a664296dff" />
+          </dependency>
+        </suppliersInternal>
+      </actor>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="ed3fcea5-887f-4330-8b1a-e027d979f908" name="Web Applikation&#xD;&#xA;- Zeigt Daten an" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="6402fc23-9827-4191-a31e-f5996ad5d512" />
+        <suppliersInternal>
+          <dependency Id="9925b6bd-8fba-44ae-88be-b76e9f90dab1">
+            <useCaseMoniker Id="330e1910-ed68-402f-9f13-cf2ab7e2c9c6" LastKnownName="Web Service &#xD;&#xA;- Verarbeitet Daten und Anfragen" />
+            <elementDefinition Id="8a47a30f-6372-4058-9252-5968d8ce6d79" />
+          </dependency>
+        </suppliersInternal>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="330e1910-ed68-402f-9f13-cf2ab7e2c9c6" name="Web Service &#xD;&#xA;- Verarbeitet Daten und Anfragen" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="8129bbf4-35f0-43c6-814c-8d0e17938873" />
+        <suppliersInternal>
+          <dependency Id="f47a2d21-310d-47a6-afa9-9f8f6dc18b3d" name="holt Daten">
+            <useCaseMoniker Id="8ea74e73-3a85-4922-9ac5-679e3c6c9f6b" LastKnownName="Cloud Datenbank&#xD;&#xA;- Speichert/Sichert Daten" />
+            <elementDefinition Id="ecc11b0f-e9c2-49bf-95a3-10face7544e3" />
+          </dependency>
+          <dependency Id="ed1215d7-ade3-45c3-8581-b0b0e1f1eee0">
+            <useCaseMoniker Id="8d81fe7b-ddd1-4227-a940-106ed9f41511" LastKnownName="Android App&#xD;&#xA;- Zeigt Daten an" />
+            <elementDefinition Id="43695002-26db-49f3-ae13-d6233d6e6517" />
+          </dependency>
+          <dependency Id="b3c11f43-f930-47aa-afb4-6f83fc6bb341">
+            <useCaseMoniker Id="ed3fcea5-887f-4330-8b1a-e027d979f908" LastKnownName="Web Applikation&#xD;&#xA;- Zeigt Daten an" />
+            <elementDefinition Id="e15db0ed-d6e3-4418-b98d-38af01be3718" />
+          </dependency>
+        </suppliersInternal>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="8d81fe7b-ddd1-4227-a940-106ed9f41511" name="Android App&#xD;&#xA;- Zeigt Daten an" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="40e5d36e-5d6a-415b-948d-5752fad3bb18" />
+        <suppliersInternal>
+          <dependency Id="48fad789-97ed-4a1b-921d-aa427871f88e" name="fragt Daten an">
+            <useCaseMoniker Id="330e1910-ed68-402f-9f13-cf2ab7e2c9c6" LastKnownName="Web Service &#xD;&#xA;- Verarbeitet Daten und Anfragen" />
+            <elementDefinition Id="f87604f4-2545-4cee-a244-eb286fd183e4" />
+          </dependency>
+        </suppliersInternal>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="8ea74e73-3a85-4922-9ac5-679e3c6c9f6b" name="Cloud Datenbank&#xD;&#xA;- Speichert/Sichert Daten" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="1b0b4600-e1b8-4454-870f-45cf80ea05f1" />
+        <suppliersInternal>
+          <dependency Id="dea3a117-e766-4724-85ee-c715d0b8237c" name="liefert Daten">
+            <useCaseMoniker Id="330e1910-ed68-402f-9f13-cf2ab7e2c9c6" LastKnownName="Web Service &#xD;&#xA;- Verarbeitet Daten und Anfragen" />
+            <elementDefinition Id="19821978-8d49-4c4c-bd46-dd679f88886a" />
+          </dependency>
+        </suppliersInternal>
+      </useCase>
+    </useCaseModelRootHasTypes>
+  </packagedElements>
+  <package Id="162a494c-0e2b-4d9c-890f-5cddfbcf96f0" name="ModelingProject_WMS">
+    <elementDefinition Id="d3bf6e79-632d-4e74-a58c-fb5bf9b8c15e" />
+  </package>
+</useCaseModelRoot>

@@ -1,0 +1,48 @@
+C:\Users\User\Documents\Schule\5AHIFS\BSD\WMS\WMS\bin\Debug\WMS.exe.config
+C:\Users\User\Documents\Schule\5AHIFS\BSD\WMS\WMS\bin\Debug\WMS.exe
+C:\Users\User\Documents\Schule\5AHIFS\BSD\WMS\WMS\bin\Debug\WMS.pdb
+C:\Users\User\Documents\Schule\5AHIFS\BSD\WMS\WMS\obj\Debug\WMS-GUI.csprojResolveAssemblyReference.cache
+C:\Users\User\Documents\Schule\5AHIFS\BSD\WMS\WMS\obj\Debug\MainWindow.g.cs
+C:\Users\User\Documents\Schule\5AHIFS\BSD\WMS\WMS\obj\Debug\App.g.cs
+C:\Users\User\Documents\Schule\5AHIFS\BSD\WMS\WMS\obj\Debug\WMS_MarkupCompile.cache
+C:\Users\User\Documents\Schule\5AHIFS\BSD\WMS\WMS\obj\Debug\WMS_MarkupCompile.lref
+C:\Users\User\Documents\Schule\5AHIFS\BSD\WMS\WMS\obj\Debug\MainWindow.baml
+C:\Users\User\Documents\Schule\5AHIFS\BSD\WMS\WMS\obj\Debug\WMS.g.resources
+C:\Users\User\Documents\Schule\5AHIFS\BSD\WMS\WMS\obj\Debug\WMS.Properties.Resources.resources
+C:\Users\User\Documents\Schule\5AHIFS\BSD\WMS\WMS\obj\Debug\WMS-GUI.csproj.GenerateResource.Cache
+C:\Users\User\Documents\Schule\5AHIFS\BSD\WMS\WMS\obj\Debug\WMS.exe
+C:\Users\User\Documents\Schule\5AHIFS\BSD\WMS\WMS\obj\Debug\WMS.pdb
+C:\Users\User\Documents\Schule\5AHIFS\BSD\WMS\WMS\obj\Debug\Lagerverwaltung_GUI.g.cs
+C:\Users\User\Documents\Schule\5AHIFS\BSD\WMS\WMS\obj\Debug\Lagerverwaltung_GUI.baml
+C:\Users\User\Documents\Schule\5AHIFS\BSD\WMS\WMS\bin\Debug\WMS_CL.dll
+C:\Users\User\Documents\Schule\5AHIFS\BSD\WMS\WMS\bin\Debug\WMS_CL.pdb
+C:\Users\User\Documents\Schule\5AHIFS\BSD\WMS\WMS\obj\Debug\NeuesProduktHinzufugen_GUI.g.cs
+C:\Users\User\Documents\Schule\5AHIFS\BSD\WMS\WMS\obj\Debug\NeuesProduktHinzufugen_GUI.baml
+C:\Users\User\Google Drive\Schulprojekte AkPa\BSD\Programme\WMS\WMS\bin\Debug\WMS.exe.config
+C:\Users\User\Google Drive\Schulprojekte AkPa\BSD\Programme\WMS\WMS\obj\Debug\WMS.exe
+C:\Users\User\Google Drive\Schulprojekte AkPa\BSD\Programme\WMS\WMS\obj\Debug\WMS.pdb
+C:\Users\User\Google Drive\Schulprojekte AkPa\BSD\Programme\WMS\WMS\bin\Debug\WMS.exe
+C:\Users\User\Google Drive\Schulprojekte AkPa\BSD\Programme\WMS\WMS\bin\Debug\WMS.pdb
+C:\Users\User\Google Drive\Schulprojekte AkPa\BSD\Programme\WMS\WMS\bin\Debug\WMS_CL.dll
+C:\Users\User\Google Drive\Schulprojekte AkPa\BSD\Programme\WMS\WMS\bin\Debug\WMS_CL.pdb
+C:\Users\User\Google Drive\Schulprojekte AkPa\BSD\Programme\WMS\WMS\obj\Debug\WMS-GUI.csprojResolveAssemblyReference.cache
+C:\Users\User\Google Drive\Schulprojekte AkPa\BSD\Programme\WMS\WMS\obj\Debug\Lagerverwaltung_GUI.baml
+C:\Users\User\Google Drive\Schulprojekte AkPa\BSD\Programme\WMS\WMS\obj\Debug\Lagerverwaltung_GUI.g.cs
+C:\Users\User\Google Drive\Schulprojekte AkPa\BSD\Programme\WMS\WMS\obj\Debug\MainWindow.g.cs
+C:\Users\User\Google Drive\Schulprojekte AkPa\BSD\Programme\WMS\WMS\obj\Debug\NeuesProduktHinzufugen_GUI.g.cs
+C:\Users\User\Google Drive\Schulprojekte AkPa\BSD\Programme\WMS\WMS\obj\Debug\App.g.cs
+C:\Users\User\Google Drive\Schulprojekte AkPa\BSD\Programme\WMS\WMS\obj\Debug\WMS_MarkupCompile.cache
+C:\Users\User\Google Drive\Schulprojekte AkPa\BSD\Programme\WMS\WMS\obj\Debug\WMS_MarkupCompile.lref
+C:\Users\User\Google Drive\Schulprojekte AkPa\BSD\Programme\WMS\WMS\obj\Debug\MainWindow.baml
+C:\Users\User\Google Drive\Schulprojekte AkPa\BSD\Programme\WMS\WMS\obj\Debug\NeuesProduktHinzufugen_GUI.baml
+C:\Users\User\Google Drive\Schulprojekte AkPa\BSD\Programme\WMS\WMS\obj\Debug\WMS.g.resources
+C:\Users\User\Google Drive\Schulprojekte AkPa\BSD\Programme\WMS\WMS\obj\Debug\WMS.Properties.Resources.resources
+C:\Users\User\Google Drive\Schulprojekte AkPa\BSD\Programme\WMS\WMS\obj\Debug\WMS-GUI.csproj.GenerateResource.Cache
+C:\Users\User\Google Drive\Schulprojekte AkPa\BSD\Programme\WMS\WMS\obj\Debug\LagerGrafisch_GUI.g.cs
+C:\Users\User\Google Drive\Schulprojekte AkPa\BSD\Programme\WMS\WMS\obj\Debug\LagerGrafisch_GUI.baml
+C:\Users\User\Google Drive\Schulprojekte AkPa\BSD\Programme\WMS\WMS\obj\Debug\Kaufen_GUI.g.cs
+C:\Users\User\Google Drive\Schulprojekte AkPa\BSD\Programme\WMS\WMS\obj\Debug\Verkaufen_GUI.g.cs
+C:\Users\User\Google Drive\Schulprojekte AkPa\BSD\Programme\WMS\WMS\obj\Debug\Kaufen_GUI.baml
+C:\Users\User\Google Drive\Schulprojekte AkPa\BSD\Programme\WMS\WMS\obj\Debug\Verkaufen_GUI.baml
+C:\Users\User\Google Drive\Schulprojekte AkPa\BSD\Programme\WMS\WMS\obj\Debug\Transaktione_GUI.g.cs
+C:\Users\User\Google Drive\Schulprojekte AkPa\BSD\Programme\WMS\WMS\obj\Debug\Transaktione_GUI.baml

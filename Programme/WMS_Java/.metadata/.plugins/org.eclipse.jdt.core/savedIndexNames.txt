@@ -1,0 +1,5 @@
+INDEX VERSION 1.130+/Users/Jakob/Google Drive/HTL/Schuljahr_2017_2018/BSD/Workspace/.metadata/.plugins/org.eclipse.jdt.core
+3117374804.index
+2769108144.index
+3770513831.index
+379206513.index

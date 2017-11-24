@@ -1,0 +1,29 @@
+﻿<Window x:Class="WMS.Kaufen_GUI"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WMS"
+        mc:Ignorable="d"
+        Title="Auslagern" Height="380" Width="260">
+    <Grid>
+        <ComboBox x:Name="cb_Lager" HorizontalAlignment="Left" Margin="80,13,0,0" VerticalAlignment="Top" Width="120"/>
+        <ComboBox x:Name="cb_Regal" HorizontalAlignment="Left" Margin="80,53,0,0" VerticalAlignment="Top" Width="120"/>
+        <ComboBox x:Name="cb_Ebene" HorizontalAlignment="Left" Margin="80,93,0,0" VerticalAlignment="Top" Width="120"/>
+        <ComboBox x:Name="cb_Produkt" SelectionChanged="cb_Produkt_SelectionChanged" HorizontalAlignment="Left" Margin="80,133,0,0" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="tb_Menge" TextChanged="tb_Menge_TextChanged" HorizontalAlignment="Left" Height="23" Margin="80,173,0,0" TextWrapping="Wrap" Text="5" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="tb_Preis" TextChanged="tb_Menge_TextChanged" HorizontalAlignment="Left" Height="23" Margin="80,213,0,0" TextWrapping="Wrap" Text="2" VerticalAlignment="Top" Width="120"/>
+        <Label x:Name="label" Content="Lager" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label1" Content="Regal" HorizontalAlignment="Left" Margin="10,50,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label2" Content="Ebene" HorizontalAlignment="Left" Margin="10,90,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label3" Content="Produkt" HorizontalAlignment="Left" Margin="10,130,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label4" Content="Menge" HorizontalAlignment="Left" Margin="10,170,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label5" Content="Preis" HorizontalAlignment="Left" Margin="10,210,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="bttn_Auslagern" Content="Auslagern" HorizontalAlignment="Left" Margin="80,300,0,0" VerticalAlignment="Top" Width="75" Click="bttn_Auslagern_Click"/>
+        <Label x:Name="label6" Content="Gesamtpreis:" HorizontalAlignment="Left" Margin="10,250,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="lbl_Preis" Content="50" HorizontalAlignment="Left" Margin="85,250,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label7" Content="MaxMenge" FontSize="10" HorizontalAlignment="Left" Margin="10,192,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="lbl_MaxMenge" Content="20" HorizontalAlignment="Left" FontSize="10" Margin="65,192,0,0" VerticalAlignment="Top"/>
+
+    </Grid>
+</Window>

@@ -1,0 +1,18 @@
+﻿<Window x:Class="WMS.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WMS"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="500">
+    <Grid>
+        <Button x:Name="bttn_LagerbestandAnsehen" Height="50" Content="Lagerbestand ansehen" HorizontalAlignment="Left" Margin="233,10,0,0" VerticalAlignment="Top" Width="200" FontSize="16" Click="bttn_LagerVerwaltung_Click" />
+        <Button x:Name="bttn_NeuesProdukt" Content="Neues Produkt hinzufügen" Height="50" HorizontalAlignment="Left" Margin="233,250,0,0" VerticalAlignment="Top" Width="200" FontSize="16" Click="bttn_NeuesProdukt_Click"/>
+        <Button x:Name="bttn_LagerGrafisch" Content="Lager grafisch dargestellt" HorizontalAlignment="Left" Margin="233,70,0,0" VerticalAlignment="Top" Width="200" FontSize="16" Height="50" Click="bttn_LagerGrafisch_Click"/>
+        <Button x:Name="bttn_Kaufen" Content="Auslagern" HorizontalAlignment="Left" Margin="233,130,0,0" VerticalAlignment="Top" FontSize="24" Height="50" Width="200" Click="bttn_Kaufen_Click"/>
+        <Button x:Name="btn_Verkaufen" Content="Einlagern" HorizontalAlignment="Left" Margin="233,190,0,0" VerticalAlignment="Top" FontSize="24" Height="50" Width="200" Click="btn_Verkaufen_Click"/>
+        <ComboBox x:Name="cb_Benutzer" SelectionChanged="cb_Benutzer_SelectionChanged" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="175"/>
+        <Button x:Name="bttn_Transaktione" FontSize="15" Content="Transaktione" HorizontalAlignment="Left" Margin="10,37,0,0" VerticalAlignment="Top" Width="175" Height="23" Click="bttn_Transaktione_Click"/>
+    </Grid>
+</Window>

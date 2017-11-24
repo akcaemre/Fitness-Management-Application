@@ -1,0 +1,16 @@
+﻿<Window x:Class="WMS.Transaktione_GUI"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WMS"
+        mc:Ignorable="d"
+        Title="Transaktione_GUI" Height="500" Width="700">
+    <Grid>
+        <TextBox x:Name="tb_Search" TextChanged="tb_Search_TextChanged" Text="Search Einlagern" Margin="0,0,0,444" />
+        <DataGrid x:Name="dg_Einlagern" IsReadOnly="True" AutoGenerateColumns="True" Margin="0,25,0,260" />
+        
+        <TextBox x:Name="tb_SearchAus" TextChanged="tb_SearchAus_TextChanged" Text="Search Auslagern" Margin="0,220,0,220" />
+        <DataGrid x:Name="dg_Auslagern" IsReadOnly="True" AutoGenerateColumns="True" Margin="0,260,0,0" />
+    </Grid>
+</Window>

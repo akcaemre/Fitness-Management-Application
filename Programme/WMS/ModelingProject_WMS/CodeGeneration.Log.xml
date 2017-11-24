@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="file:///C:/PROGRAM FILES (X86)/MICROSOFT VISUAL STUDIO 14.0/COMMON7/IDE/EXTENSIONS/MICROSOFT/ARCHITECTURE TOOLS/EXTENSIBILITY/Logging/CodeGenLog.xslt"?>
+<Log xmlns="http://schemas.microsoft.com/VisualStudio/2010/CodeGen.RE.Log" Label="Codegenerierungs-/Texttransformationsprotokoll">
+  <MessageClass Name="Message" Label="Meldung" Option="Informationsmeldungen anzeigen" />
+  <MessageClass Name="Warning" Label="Warnung" Option="Warnungen anzeigen" />
+  <MessageClass Name="Error" Label="Fehler" Option="Fehler anzeigen" />
+  <MessageClass Name="Property" Label="Eigenschaft" Option="Metadaten anzeigen" />
+  <MessageClass Name="Diagnostic" Label="Meldung" Option="Diagnosemeldungen anzeigen" />
+  <Message Timestamp="2017-11-15T18:23:15" Importance="High" Text="Die Codegenerierung oder Texttransformation wurde gestartet." />
+  <Message Timestamp="2017-11-15T18:23:15" Importance="Diagnostic" Text="Name = ClassTemplate" />
+  <Message Timestamp="2017-11-15T18:23:15" Importance="Diagnostic" Text="Überschreiben = True" />
+  <Message Timestamp="2017-11-15T18:23:15" Importance="Diagnostic" Text="ProjectPath = ..\ModelingProject_WMSLib\ModelingProject_WMSLib.csproj" />
+  <Message Timestamp="2017-11-15T18:23:15" Importance="Diagnostic" Text="TargetDirectory = GeneratedCode\{PackageStructure}" />
+  <Message Timestamp="2017-11-15T18:23:15" Importance="Diagnostic" Text="TargetName = {Name}" />
+  <Message Timestamp="2017-11-15T18:23:15" Importance="Diagnostic" Text="TemplateFilePath = C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 14.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\ClassTemplate.t4" />
+  <Message Timestamp="2017-11-15T18:23:15" Importance="Diagnostic" Text="ResolvedTemplateFilePath = C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 14.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\ClassTemplate.t4" />
+  <Message Timestamp="2017-11-15T18:23:15" Importance="Medium" Text="Die Textvorlagenbindung von ModelingProject_WMS: 'ClassTemplate' wendet ClassTemplate.t4 an für: 'ModelingProject_WMS::Einlagern' -  (Class), 'ModelingProject_WMS::Benutzer' -  (Class), 'ModelingProject_WMS::Produkt' -  (Class), 'ModelingProject_WMS::Auslagern' -  (Class), 'ModelingProject_WMS::Lager' -  (Class), 'ModelingProject_WMS::Regal' -  (Class), 'ModelingProject_WMS::Ebene' -  (Class) " />
+  <Message Timestamp="2017-11-15T18:23:16" Importance="Medium" Text="'ModelingProject_WMS::Einlagern' -  (Class) : Erfolg (Datei ersetzt) - C:\Users\User\Documents\Schule\5AHIFS\BSD\WMS\ModelingProject_WMSLib\GeneratedCode\Einlagern.cs" />
+  <Message Timestamp="2017-11-15T18:23:16" Importance="Medium" Text="'ModelingProject_WMS::Benutzer' -  (Class) : Erfolg (Datei ersetzt) - C:\Users\User\Documents\Schule\5AHIFS\BSD\WMS\ModelingProject_WMSLib\GeneratedCode\Benutzer.cs" />
+  <Message Timestamp="2017-11-15T18:23:16" Importance="Medium" Text="'ModelingProject_WMS::Produkt' -  (Class) : Erfolg (Datei ersetzt) - C:\Users\User\Documents\Schule\5AHIFS\BSD\WMS\ModelingProject_WMSLib\GeneratedCode\Produkt.cs" />
+  <Message Timestamp="2017-11-15T18:23:16" Importance="Medium" Text="'ModelingProject_WMS::Auslagern' -  (Class) : Erfolg (Datei ersetzt) - C:\Users\User\Documents\Schule\5AHIFS\BSD\WMS\ModelingProject_WMSLib\GeneratedCode\Auslagern.cs" />
+  <Message Timestamp="2017-11-15T18:23:16" Importance="Medium" Text="'ModelingProject_WMS::Lager' -  (Class) : Erfolg (Datei ersetzt) - C:\Users\User\Documents\Schule\5AHIFS\BSD\WMS\ModelingProject_WMSLib\GeneratedCode\Lager.cs" />
+  <Message Timestamp="2017-11-15T18:23:16" Importance="Medium" Text="'ModelingProject_WMS::Regal' -  (Class) : Erfolg (Datei ersetzt) - C:\Users\User\Documents\Schule\5AHIFS\BSD\WMS\ModelingProject_WMSLib\GeneratedCode\Regal.cs" />
+  <Message Timestamp="2017-11-15T18:23:16" Importance="Medium" Text="'ModelingProject_WMS::Ebene' -  (Class) : Erfolg (Datei ersetzt) - C:\Users\User\Documents\Schule\5AHIFS\BSD\WMS\ModelingProject_WMSLib\GeneratedCode\Ebene.cs" />
+  <Message Timestamp="2017-11-15T18:23:16" Importance="Diagnostic" Text="Name = StructTemplate" />
+  <Message Timestamp="2017-11-15T18:23:16" Importance="Diagnostic" Text="Überschreiben = True" />
+  <Message Timestamp="2017-11-15T18:23:16" Importance="Diagnostic" Text="ProjectPath = ..\ModelingProject_WMSLib\ModelingProject_WMSLib.csproj" />
+  <Message Timestamp="2017-11-15T18:23:16" Importance="Diagnostic" Text="TargetDirectory = GeneratedCode\{PackageStructure}" />
+  <Message Timestamp="2017-11-15T18:23:16" Importance="Diagnostic" Text="TargetName = {Name}" />
+  <Message Timestamp="2017-11-15T18:23:16" Importance="Diagnostic" Text="TemplateFilePath = C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 14.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\StructTemplate.t4" />
+  <Message Timestamp="2017-11-15T18:23:16" Importance="Diagnostic" Text="ResolvedTemplateFilePath = C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 14.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\StructTemplate.t4" />
+  <Message Timestamp="2017-11-15T18:23:16" Importance="Medium" Text="Die Textvorlagenbindung von ModelingProject_WMS: 'StructTemplate' wendet StructTemplate.t4 an für: 'ModelingProject_WMS::Einlagern' -  (Class), 'ModelingProject_WMS::Benutzer' -  (Class), 'ModelingProject_WMS::Produkt' -  (Class), 'ModelingProject_WMS::Auslagern' -  (Class), 'ModelingProject_WMS::Lager' -  (Class), 'ModelingProject_WMS::Regal' -  (Class), 'ModelingProject_WMS::Ebene' -  (Class) " />
+  <Message Timestamp="2017-11-15T18:23:16" Importance="Diagnostic" Text="'ModelingProject_WMS::Einlagern' -  (Class): Es wurde keine Datei erstellt, da die 'AppliesToElement'-Methode der Vorlage 'StructTemplate.t4' als 'false' ausgewertet wurde." />
+  <Message Timestamp="2017-11-15T18:23:16" Importance="Diagnostic" Text="'ModelingProject_WMS::Benutzer' -  (Class): Es wurde keine Datei erstellt, da die 'AppliesToElement'-Methode der Vorlage 'StructTemplate.t4' als 'false' ausgewertet wurde." />
+  <Message Timestamp="2017-11-15T18:23:17" Importance="Diagnostic" Text="'ModelingProject_WMS::Produkt' -  (Class): Es wurde keine Datei erstellt, da die 'AppliesToElement'-Methode der Vorlage 'StructTemplate.t4' als 'false' ausgewertet wurde." />
+  <Message Timestamp="2017-11-15T18:23:17" Importance="Diagnostic" Text="'ModelingProject_WMS::Auslagern' -  (Class): Es wurde keine Datei erstellt, da die 'AppliesToElement'-Methode der Vorlage 'StructTemplate.t4' als 'false' ausgewertet wurde." />
+  <Message Timestamp="2017-11-15T18:23:17" Importance="Diagnostic" Text="'ModelingProject_WMS::Lager' -  (Class): Es wurde keine Datei erstellt, da die 'AppliesToElement'-Methode der Vorlage 'StructTemplate.t4' als 'false' ausgewertet wurde." />
+  <Message Timestamp="2017-11-15T18:23:17" Importance="Diagnostic" Text="'ModelingProject_WMS::Regal' -  (Class): Es wurde keine Datei erstellt, da die 'AppliesToElement'-Methode der Vorlage 'StructTemplate.t4' als 'false' ausgewertet wurde." />
+  <Message Timestamp="2017-11-15T18:23:17" Importance="Diagnostic" Text="'ModelingProject_WMS::Ebene' -  (Class): Es wurde keine Datei erstellt, da die 'AppliesToElement'-Methode der Vorlage 'StructTemplate.t4' als 'false' ausgewertet wurde." />
+  <Message Timestamp="2017-11-15T18:23:17" Importance="Diagnostic" Text="Die Auswahl enthielt 7 Elemente, die an keine Vorlage gebunden sind." />
+  <Message Timestamp="2017-11-15T18:23:17" Importance="Diagnostic" Text="'ModelingProject_WMS::' -  (Association): keine gebundene Vorlage." />
+  <Message Timestamp="2017-11-15T18:23:17" Importance="Diagnostic" Text="'ModelingProject_WMS::' -  (Association): keine gebundene Vorlage." />
+  <Message Timestamp="2017-11-15T18:23:17" Importance="Diagnostic" Text="'ModelingProject_WMS::' -  (Association): keine gebundene Vorlage." />
+  <Message Timestamp="2017-11-15T18:23:17" Importance="Diagnostic" Text="'ModelingProject_WMS::' -  (Association): keine gebundene Vorlage." />
+  <Message Timestamp="2017-11-15T18:23:17" Importance="Diagnostic" Text="'ModelingProject_WMS::' -  (Association): keine gebundene Vorlage." />
+  <Message Timestamp="2017-11-15T18:23:17" Importance="Diagnostic" Text="'ModelingProject_WMS::' -  (Association): keine gebundene Vorlage." />
+  <Message Timestamp="2017-11-15T18:23:17" Importance="Diagnostic" Text="'ModelingProject_WMS::' -  (Association): keine gebundene Vorlage." />
+  <Message Timestamp="2017-11-15T18:23:17" Importance="High" Text="Die Codegenerierung ist abgeschlossen. Fehler: 0. Warnungen: 0." />
+</Log>
