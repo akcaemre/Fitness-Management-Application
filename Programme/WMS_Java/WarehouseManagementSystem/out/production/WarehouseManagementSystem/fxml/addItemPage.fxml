@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.TitledPane?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.AddItemController">
+   <children>
+      <TitledPane prefHeight="400.0" prefWidth="600.0" text="Warehouse Management System: Produkt hinzufügen" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <content>
+            <GridPane>
+              <columnConstraints>
+                  <ColumnConstraints hgrow="SOMETIMES" maxWidth="273.0" minWidth="10.0" prefWidth="190.0" />
+                <ColumnConstraints hgrow="SOMETIMES" maxWidth="349.0" minWidth="10.0" prefWidth="297.0" />
+                <ColumnConstraints hgrow="SOMETIMES" maxWidth="92.0" minWidth="10.0" prefWidth="39.0" />
+              </columnConstraints>
+              <rowConstraints>
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints maxHeight="74.0" minHeight="10.0" prefHeight="74.0" vgrow="SOMETIMES" />
+                  <RowConstraints maxHeight="46.0" minHeight="10.0" prefHeight="26.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+              </rowConstraints>
+               <children>
+                  <TextField fx:id="tb_name" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+                  <Label prefHeight="79.0" prefWidth="208.0" text="Produkt Name:" GridPane.rowIndex="1" />
+                  <Label prefHeight="125.0" prefWidth="322.0" text="Preis pro Einheit:" GridPane.rowIndex="5" />
+                  <Label prefHeight="145.0" prefWidth="304.0" text="Menge:" GridPane.rowIndex="4" />
+                  <Label alignment="TOP_LEFT" contentDisplay="TOP" prefHeight="83.0" prefWidth="172.0" text="Beschreibung:" GridPane.rowIndex="2" />
+                  <TextArea fx:id="tb_description" prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+                  <TextField fx:id="tb_price" GridPane.columnIndex="1" GridPane.rowIndex="5" />
+                  <TextField fx:id="tb_amount" prefHeight="27.0" prefWidth="176.0" GridPane.columnIndex="1" GridPane.rowIndex="4" />
+               </children>
+            </GridPane>
+         </content>
+      </TitledPane>
+   </children>
+</AnchorPane>

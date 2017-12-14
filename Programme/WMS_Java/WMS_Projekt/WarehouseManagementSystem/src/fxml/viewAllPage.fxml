@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.SplitPane?>
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.TitledPane?>
+<?import javafx.scene.control.ToolBar?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.shape.Line?>
+
+<AnchorPane prefHeight="600.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.ShowWarehouseController">
+   <children>
+      <TitledPane prefHeight="400.0" prefWidth="600.0" text="Warehouse Management System: Lagerbestand" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <content>
+            <SplitPane dividerPositions="0.29797979797979796" prefHeight="160.0" prefWidth="200.0">
+              <items>
+                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="572.0" prefWidth="280.0">
+                     <children>
+                        <ScrollPane layoutX="-13.0" layoutY="36.0" prefHeight="536.0" prefWidth="264.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="36.0">
+                           <content>
+                              <TableView fx:id="tv_products" onMouseClicked="#onItemSelected" prefHeight="522.0" prefWidth="245.0">
+                                 <columns>
+                                    <TableColumn fx:id="col_id" prefWidth="75.0" text="ID" />
+                                    <TableColumn fx:id="col_name" prefWidth="169.0" text="Name" />
+                                 </columns>
+                              </TableView>
+                           </content>
+                        </ScrollPane>
+                        <TextField fx:id="tb_search" layoutX="7.0" layoutY="1.0" prefHeight="13.0" prefWidth="167.0" />
+                        <Button fx:id="bttn_search" layoutX="191.0" layoutY="1.0" mnemonicParsing="false" onAction="#searchActionTriggered" text="Search" />
+                     </children>
+                  </AnchorPane>
+                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0">
+                     <children>
+                        <ToolBar prefHeight="40.0" prefWidth="656.0">
+                          <items>
+                            <Button mnemonicParsing="false" text="Button" />
+                          </items>
+                        </ToolBar>
+                        <TabPane prefHeight="572.0" prefWidth="626.0" tabClosingPolicy="UNAVAILABLE" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                          <tabs>
+                            <Tab text="Produkt Informationen">
+                                 <content>
+                                    <GridPane prefHeight="372.0" prefWidth="626.0">
+                                      <columnConstraints>
+                                          <ColumnConstraints hgrow="SOMETIMES" maxWidth="188.0" minWidth="10.0" prefWidth="130.0" />
+                                          <ColumnConstraints hgrow="SOMETIMES" maxWidth="225.0" minWidth="10.0" prefWidth="184.0" />
+                                        <ColumnConstraints hgrow="SOMETIMES" maxWidth="131.0" minWidth="10.0" prefWidth="32.0" />
+                                        <ColumnConstraints hgrow="SOMETIMES" maxWidth="242.0" minWidth="10.0" prefWidth="242.0" />
+                                      </columnConstraints>
+                                      <rowConstraints>
+                                          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                      </rowConstraints>
+                                       <children>
+                                          <Label prefHeight="73.0" prefWidth="175.0" text="Produkt:" GridPane.rowIndex="1" />
+                                          <Label fx:id="lbl_name" prefHeight="63.0" prefWidth="251.0" text="*name*" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+                                          <Label prefHeight="35.0" prefWidth="94.0" text=" ID:" textAlignment="CENTER" GridPane.columnIndex="2" GridPane.rowIndex="1" />
+                                          <Label fx:id="lbl_id" prefHeight="44.0" prefWidth="304.0" text="*id*" GridPane.columnIndex="3" GridPane.rowIndex="1" />
+                                          <Label prefHeight="53.0" prefWidth="165.0" text="Beschreibung:" GridPane.rowIndex="5" />
+                                          <Label fx:id="lbl_beschreibung" alignment="CENTER" prefHeight="111.0" prefWidth="254.0" text="*Beschreibung*" GridPane.columnIndex="1" GridPane.columnSpan="2" GridPane.rowIndex="5" GridPane.rowSpan="2" />
+                                          <Label prefHeight="88.0" prefWidth="177.0" text="Verfügbare Menge:" GridPane.rowIndex="8" />
+                                          <Label fx:id="lbl_menge" prefHeight="62.0" prefWidth="286.0" text="*menge*" GridPane.columnIndex="1" GridPane.rowIndex="8" />
+                                          <Label prefHeight="119.0" prefWidth="311.0" text="Preis:" GridPane.rowIndex="3" />
+                                          <Label fx:id="lbtl_preis" prefHeight="139.0" prefWidth="261.0" text="*preis*" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+                                          <Button fx:id="bttn_auslagern" mnemonicParsing="false" onAction="#onActionProduktEntnehmen" prefHeight="68.0" prefWidth="262.0" text="Entnehmen" GridPane.columnIndex="1" GridPane.rowIndex="10" />
+                                          <Button fx:id="bttn_einlagern" mnemonicParsing="false" onAction="#onActionProduktEinlagern" prefHeight="43.0" prefWidth="189.0" text="Einlagern" GridPane.columnIndex="3" GridPane.rowIndex="10" />
+                                          <Line endX="100.0" startX="-100.0" GridPane.columnSpan="4" GridPane.rowIndex="4" />
+                                          <Line endX="100.0" startX="-100.0" GridPane.rowIndex="7" />
+                                          <Line endX="100.0" startX="-100.0" GridPane.rowIndex="2" />
+                                       </children>
+                                    </GridPane>
+                                 </content>
+                              </Tab>
+                            <Tab text="Lagerort">
+                                 <content>
+                                    <GridPane>
+                                      <columnConstraints>
+                                        <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                                        <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                                      </columnConstraints>
+                                      <rowConstraints>
+                                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                      </rowConstraints>
+                                    </GridPane>
+                                 </content>
+                              </Tab>
+                          </tabs>
+                        </TabPane>
+                     </children>
+                  </AnchorPane>
+              </items>
+            </SplitPane>
+         </content>
+      </TitledPane>
+   </children>
+</AnchorPane>

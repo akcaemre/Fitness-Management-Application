@@ -26,3 +26,6 @@ C:\Users\User\Google Drive\Schulprojekte AkPa\BSD\Programme\WMS\WMS\obj\Release\
 C:\Users\User\Google Drive\Schulprojekte AkPa\BSD\Programme\WMS\WMS\obj\Release\Kaufen_GUI.baml
 C:\Users\User\Google Drive\Schulprojekte AkPa\BSD\Programme\WMS\WMS\obj\Release\Transaktione_GUI.baml
 C:\Users\User\Google Drive\Schulprojekte AkPa\BSD\Programme\WMS\WMS\obj\Release\Verkaufen_GUI.baml
+C:\Users\User\Google Drive\Schulprojekte AkPa\BSD\GitHub\Programme\WMS\WMS\bin\Release\WMS.exe.config
+C:\Users\User\Google Drive\Schulprojekte AkPa\BSD\GitHub\Programme\WMS\WMS\obj\Release\WMS.exe
+C:\Users\User\Google Drive\Schulprojekte AkPa\BSD\GitHub\Programme\WMS\WMS\obj\Release\WMS.pdb
