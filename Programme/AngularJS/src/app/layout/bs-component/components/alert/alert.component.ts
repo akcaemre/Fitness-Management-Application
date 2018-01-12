@@ -20,10 +20,11 @@ export class AlertComponent implements OnInit {
             id: 3,
             type: 'warning',
             message: 'This is a warning alert',
-        }, {
+        },
+        {
             id: 4,
             type: 'danger',
-            message: 'This is a danger alert',
+            message: 'Login failed.',
         });
     }
 

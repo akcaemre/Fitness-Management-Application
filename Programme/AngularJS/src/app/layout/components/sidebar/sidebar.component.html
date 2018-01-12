@@ -1,25 +1,25 @@
 <nav class="sidebar" [ngClass]="{sidebarPushRight: isActive}">
     <div class="list-group">
         <a routerLink="/dashboard" [routerLinkActive]="['router-link-active']" class="list-group-item">
-            <i class="fa fa-fw fa-dashboard"></i>&nbsp;{{ 'Dashboard' | translate }}
+            <i class="fa fa-fw fa-dashboard"></i>&nbsp;{{ 'Dashboard' }}
         </a>
         <a [routerLink]="['/charts']" [routerLinkActive]="['router-link-active']" class="list-group-item">
-            <i class="fa fa-fw fa-bar-chart-o"></i>&nbsp;{{ 'Charts' | translate }}
+            <i class="fa fa-fw fa-bar-chart-o"></i>&nbsp;{{ 'Diagramme' }}
         </a>
         <a [routerLink]="['/tables']" [routerLinkActive]="['router-link-active']" class="list-group-item">
-            <i class="fa fa-fw fa-table"></i>&nbsp;{{ 'Tables' | translate }}
+            <i class="fa fa-fw fa-table"></i>&nbsp;{{ 'Tabellen' | translate }}
         </a>
         <a [routerLink]="['/forms']" [routerLinkActive]="['router-link-active']" class="list-group-item">
             <i class="fa fa-fw fa-edit"></i>&nbsp;{{ 'Forms' | translate }}
         </a>
         <a [routerLink]="['/bs-element']" [routerLinkActive]="['router-link-active']" class="list-group-item">
-            <i class="fa fa-fw fa-desktop"></i>&nbsp;{{ 'Bootstrap Element' | translate }}
+            <i class="fa fa-fw fa-desktop"></i>&nbsp;{{ 'Bootstrap Elemente' | translate }}
         </a>
         <a [routerLink]="['/grid']" [routerLinkActive]="['router-link-active']" class="list-group-item">
-            <i class="fa fa-fw fa-wrench"></i>&nbsp;{{ 'Bootstrap Grid' | translate }}
+            <i class="fa fa-fw fa-wrench"></i>&nbsp;{{ 'Bootstrap Gitter' | translate }}
         </a>
         <a [routerLink]="['/components']" [routerLinkActive]="['router-link-active']" class="list-group-item">
-            <i class="fa fa-th-list"></i>&nbsp;{{ 'Component' | translate }}
+            <i class="fa fa-th-list"></i>&nbsp;{{ 'Komponente' | translate }}
         </a>
         <div class="nested-menu">
             <a class="list-group-item" (click)="addExpandClass('pages')">
@@ -40,7 +40,7 @@
             </li>
         </div>
         <a [routerLink]="['/blank-page']" [routerLinkActive]="['router-link-active']" class="list-group-item">
-            <i class="fa fa-file-o"></i>&nbsp;{{ 'Blank Page' | translate }}
+            <i class="fa fa-file-o"></i>&nbsp;{{ 'Leere Seite' | translate }}
         </a>
         <div class="header-fields">
             <a (click)="rltAndLtr()" class="list-group-item">
