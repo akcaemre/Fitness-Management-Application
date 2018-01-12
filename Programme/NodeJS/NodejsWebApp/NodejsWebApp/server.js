@@ -9,6 +9,8 @@ var bodyParser = require('body-parser');
 var MongoClient = require('mongodb').MongoClient;
 var collection = "MyFirstCollection";
 var database = "TestDB";
+var userDatabase = "UserDB";
+var userCollection = "Users";
 var user = "admin";
 var psw = "2OMWwM8lYJ6yJITc";
 var uri = "mongodb://" + user + ":" + psw + "@cluster0-shard-00-00-xguqy.mongodb.net:27017,cluster0-shard-00-01-xguqy.mongodb.net:27017,cluster0-shard-00-02-xguqy.mongodb.net:27017/test?ssl=true&replicaSet=Cluster0-shard-0&authSource=admin";
@@ -31,6 +33,10 @@ app.get('/', function (req, res) {
 
 app.get('/read', function (req, res) {
     read(res, collection);
+});
+
+app.post('/user', function (req, res) {
+    userLogin(req, res, userCollection);
 });
 
 app.post('/create', function (req, res) {
@@ -67,6 +73,43 @@ function read(res, collection) {
             client.close();
         }
     });
+}
+
+function userLogin(req, res, collection) {
+    var jsonCheck = req.body;
+
+    if(jsonCheck == null || jsonCheck == "")
+        res.status(400).send("request empty.");
+    else {
+        MongoClient.connect(uri, function (err, client) {
+            if (err) {
+                res.send(err);
+                res.end(400);
+            } else {
+                var db = client.db(userDatabase);
+
+                db.collection(collection).findOne(jsonCheck, function (err, result) {
+                    if (err) {
+                        res.status(400).send(err);
+                    } else if(result == null) {
+                        res.status(401).send("No entries found!");
+                    } else if (result.email == null || result.passwort == null) {
+                        res.status(401).send("Result and/or email is empty!");
+                    } else if(rightCredentials(result, jsonCheck)) {
+                        res.status(200).send("Right Credentials!");
+                    } else {
+                        res.status(400).send("Request failed!");
+                    }
+                });
+
+                client.close();
+            }
+        });
+    }
+}
+
+function rightCredentials(result, jsonCheck) {
+    return (result.email == jsonCheck.email) && (result.passwort == jsonCheck.passwort);
 }
 
 function create(req, res, collection) {
