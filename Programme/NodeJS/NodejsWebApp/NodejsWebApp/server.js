@@ -7,8 +7,8 @@ var app = express();
 var bodyParser = require('body-parser');
 
 var MongoClient = require('mongodb').MongoClient;
-var collection = "MyFirstCollection";
-var database = "TestDB";
+var collection = "Transaktionen";
+var database = "HLWDB";
 var userDatabase = "UserDB";
 var userCollection = "Users";
 var user = "admin";
