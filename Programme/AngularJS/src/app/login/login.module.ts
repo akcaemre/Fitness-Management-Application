@@ -16,8 +16,8 @@ import { AlertComponent } from '../layout/bs-component/components/alert/alert.co
         NgbModule.forRoot()
     ],
     declarations: [
-        LoginComponent
-        ,AlertComponent
+        LoginComponent,
+        AlertComponent
     ]
 })
 export class LoginModule {}

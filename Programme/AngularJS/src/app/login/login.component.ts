@@ -35,13 +35,15 @@ export class LoginComponent implements OnInit {
         var error = null;
 
         if(this.email == "" || this.password == "") {
-            this.setError((this.email == "" ? "E-Mail " : "") +
-            (this.email == "" && this.password == "" ? "und " : "")
-            + (this.password == "" ? "Passwort" : "") + " ist leer!");
+            this.setError(
+                (this.email == "" ? "E-Mail " : "") 
+                + (this.email == "" && this.password == "" ? "und " : "")
+                + (this.password == "" ? "Passwort" : "") + " ist leer!"
+            );
         } else {
             this.getLoginData().map(res => res.json()).subscribe(
                 (data) => localStorage.setItem('isLoggedin', 'true'),
-                (err) => this.setError(err));
+                (err) => this.setError(err.status + err));
         }
     }
 
@@ -49,10 +51,11 @@ export class LoginComponent implements OnInit {
         this.alerts[0].message = msg;
         document.getElementById("AppAlert").hidden = false;
     }
+    
     getLoginData() {
-         return this.http.post(this.postLoginUrl, {
-			"email" : this.email,
-            "passwort" : this.password
-		});
+
+        return this.http.post(this.postLoginUrl, 
+            { "email" : this.email, "passwort" : this.password }
+        );
     }
 }
