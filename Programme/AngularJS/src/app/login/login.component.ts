@@ -43,7 +43,7 @@ export class LoginComponent implements OnInit {
         } else {
             this.getLoginData().map(res => res.json()).subscribe(
                 (data) => localStorage.setItem('isLoggedin', 'true'),
-                (err) => this.setError(err.status + err));
+                (err) => this.setError(err + " ErrorCode: " + err.status));
         }
     }
 
