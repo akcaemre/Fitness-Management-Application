@@ -33,6 +33,7 @@ app.get('/', function (req, res) {
     res.end(200);
 });
 
+/* ---------- Read ---------- */
 app.get('/readWarehouse', function (req, res) {
     read(res, warehouseCollection);
 });
@@ -44,21 +45,44 @@ app.get('/readProduct', function (req, res) {
 app.get('/readTrans', function (req, res) {
     read(res, transCollection);
 });
+/* ---------- Read end ---------- */
+
+/* ---------- Add ---------- */
+app.post('/addProduct', function (req, res) {
+    create(req, res, productCollection);
+});
+
+app.post('/addWarehouseItem', function (req, res) {
+    create(req, res, warehouseCollection);
+});
+
+app.post('/addTrans', function (req, res) {
+    create(req, res, transCollection);
+});
+/* ---------- Read end ---------- */
+
+/* ---------- Update ---------- */
+app.put('/updateWarehouseItem', function (req, res) {
+    update(req, res, warehouseCollection);
+});
+
+app.put('/updateProduct', function (req, res) {
+    update(req, res, productCollection);
+});
+/* ---------- Update end ---------- */
+
+/* ---------- Delete ---------- */
+app.post('/deleteWarehouseItem', function (req, res) {
+    remove(req, res, warehouseCollection);
+});
+
+app.post('/deleteProduct', function (req, res) {
+    remove(req, res, productCollection);
+});
+/* ---------- Delete end ---------- */
 
 app.post('/user', function (req, res) {
     userLogin(req, res, userCollection);
-});
-
-app.post('/create', function (req, res) {
-    create(req, res, collection);
-});
-
-app.put('/update', function (req, res) {
-    update(req, res, collection);
-});
-
-app.post('/delete', function (req, res) {
-    remove(req, res, collection);
 });
 
 app.listen(port);
