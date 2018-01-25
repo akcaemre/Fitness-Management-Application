@@ -2,8 +2,6 @@ import { Component, OnInit, CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
 import { Router } from '@angular/router';
 import { Http } from '@angular/http';
 import { Input } from '@angular/compiler/src/core';
-import { Button } from 'selenium-webdriver';
-import { ButtonsComponent } from '../bs-component/components/index';
 
 @Component({
     selector: 'app-transactions',
