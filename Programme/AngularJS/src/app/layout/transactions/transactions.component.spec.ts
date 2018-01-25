@@ -1,4 +1,5 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 import { TransactionComponent } from './transactions.component';
 
@@ -9,7 +10,8 @@ describe('TransactionComponent', () => {
     beforeEach(
         async(() => {
             TestBed.configureTestingModule({
-                declarations: [TransactionComponent]
+                declarations: [TransactionComponent],
+                imports: [ NgbModule.forRoot() ]
             }).compileComponents();
         })
     );

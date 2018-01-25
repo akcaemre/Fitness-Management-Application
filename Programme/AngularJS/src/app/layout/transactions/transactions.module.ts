@@ -14,6 +14,8 @@ import { TransactionComponent } from './transactions.component';
         ReactiveFormsModule,
         NgbModule.forRoot()
     ],
-    declarations: [TransactionComponent]
+    declarations: [
+        TransactionComponent
+    ]
 })
 export class TransactionModule {}
