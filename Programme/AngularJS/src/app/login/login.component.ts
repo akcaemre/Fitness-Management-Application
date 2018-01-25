@@ -53,9 +53,12 @@ export class LoginComponent implements OnInit {
     }
     
     getLoginData() {
-
-        return this.http.post(this.postLoginUrl, 
-            { "email" : this.email, "passwort" : this.password }
+        return this.http.post(
+            this.postLoginUrl, 
+            { 
+                "email" : this.email, 
+                "passwort" : this.password 
+            }
         );
     }
 }
