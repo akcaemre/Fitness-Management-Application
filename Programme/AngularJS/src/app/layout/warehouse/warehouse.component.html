@@ -1,0 +1,44 @@
+<app-page-header [heading]="Lager"></app-page-header>
+<div class="row">
+    <div class="col col-xl-12 col-lg-12">
+        <div class="card mb-3">
+            <table class="card-body table table-hover" id="warehouseitemtable">
+                <thead>
+                    <tr>
+                        <th>Nr</th>
+                        <th>Name</th>
+                        <th>Einheit</th>
+                        <th>Einheitspreis</th>
+                        <th>Stückzahl</th>
+                        <th>Warengruppe</th>
+                        <th>Farbe</th>
+                    </tr>
+                </thead>
+                <tbody *ngFor="let l of Lagereintrag | async; let i = index" (click)="setClickedRow(i + 1)" [class.active]="i == selectedRow">
+                    <tr>
+                        <th scope="row">{{ i + 1 }}</th>
+                        <td>{{ l.name }}</td>
+                        <td>{{ l.einheit }}</td>
+                        <td>{{ l.einheitspreis }}</td>
+                        <td>{{ l.menge }}</td>
+                        <td>{{ l.produktgruppe }}</td>
+                        <td>{{ l.farbe }}</td>
+                    </tr> 
+                </tbody>
+            </table>
+        </div>
+        <div class="well well-lg">
+                Selected Row : <strong> {{ selectedRow }} </strong>
+            </div>
+        <div class="row">
+            <div class="col-xl-12 text-xs-center">
+                <div class="card mb-3">
+                    <div class="card-body">
+                        <button type="button" class="btn btn-secondary" placement="top"(click)="returnIntoWarehouse()">Einlagern</button>
+                        <button type="button" class="btn btn-secondary" placement="top" (click)="outsourceFromWarehouse()">Auslagern</button>
+                    </div>
+                </div>   
+            </div>
+        </div>
+    </div>
+</div>

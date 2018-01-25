@@ -4,13 +4,17 @@
             <i class="fa fa-fw fa-dashboard"></i>&nbsp;{{ 'Dashboard' }}
         </a>
         <a [routerLink]="['/transactions']" [routerLinkActive]="['router-link-active']" class="list-group-item">
-            <i class="fa fa-file-o"></i>&nbsp; Transaktionen
+            <i class="fa fa-th-list"></i>&nbsp;Transaktionen
         </a>
+        <a [routerLink]="['/warehouse']" [routerLinkActive]="['router-link-active']" class="list-group-item">
+            <i class="fa fa-fw fa-table"></i>&nbsp;Lager
+        </a>
+        <!--
         <a [routerLink]="['/charts']" [routerLinkActive]="['router-link-active']" class="list-group-item">
             <i class="fa fa-fw fa-bar-chart-o"></i>&nbsp;{{ 'Diagramme' }}
         </a>
-        <a [routerLink]="['/tables']" [routerLinkActive]="['router-link-active']" class="list-group-item">
-            <i class="fa fa-fw fa-table"></i>&nbsp;{{ 'Tabellen' | translate }}
+        <a [routerLink]="['/warehouse']" [routerLinkActive]="['router-link-active']" class="list-group-item">
+            <i class="fa fa-fw fa-table"></i>&nbsp; Lager
         </a>
         <a [routerLink]="['/forms']" [routerLinkActive]="['router-link-active']" class="list-group-item">
             <i class="fa fa-fw fa-edit"></i>&nbsp;{{ 'Forms' | translate }}
@@ -42,7 +46,7 @@
                 </ul>
             </li>
         </div>
-        
+    -->
         <div class="header-fields">
             <a (click)="rltAndLtr()" class="list-group-item">
                 <span><i class="fa fa-arrows-h"></i>&nbsp; RTL/LTR</span>
